@@ -1,0 +1,422 @@
+* {
+    font-family: "Calibre", system-ui, -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#firstnav {
+    width: 100%;
+    /* position: fixed; */
+    /* height: ; */
+    /* background-color: #ffffff; */
+    top: 0;
+}
+
+nav {
+    position: fixed;
+    height: 60px;
+    top: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border-bottom: 0.1px solid #f7e8e8;
+    width: 100%;
+    padding: 2px;
+    background-color: #ffffff;
+}
+
+#left-nav {
+    padding-left: 25px;
+}
+
+#left-nav a img {
+    background-color: transparent;
+}
+
+.ul1 {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 590px;
+}
+
+.ul1 li a {
+    color: #29292c;
+}
+
+.ul1 li a:hover {
+    color: #ce2d2d;
+}
+
+x a {
+    text-decoration: none;
+}
+
+hr {
+    width: 10px;
+    height: 0;
+    border: #29292c thin 1px;
+    margin-top: 13px;
+}
+
+.first-sec {
+    margin-top: 8%;
+    text-align: center !Important;
+}
+
+h1 {
+    color: #29292c;
+    font-family: "Calibre", system-ui, -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: auto;
+    /* max-width: 34rem; */
+}
+
+ul {
+    list-style-type: none;
+}
+
+#search a img {
+    width: 21px;
+    height: 21px;
+    background-color: transparent;
+    transform: rotate(90deg);
+}
+
+#search a img:hover {}
+
+.after-div {
+    font-size: 22px;
+    color: #454547;
+    margin-bottom: 60px;
+    font-family: "Calibre", system-ui, -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+    font-weight: 600;
+    /* line-height: 2.09rem; */
+}
+
+.span {
+    color: #ce2d2d;
+    text-decoration: underline;
+}
+
+#how {
+    /* border: #ce2d2d; */
+    /* background-color: #ce2d2d; */
+    width: 170px;
+    height: 45px;
+    margin-right: 0;
+}
+
+#how a {
+    padding: 10px;
+    background-color: #ce2d2d;
+    text-align: center;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+#how b a:hover {
+    color: #f7e8e8;
+    background-color: #ce2d2d;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.main {
+    /* text-align: center; */
+    width: 47%;
+    margin: auto;
+}
+
+.main-div {
+    display: block;
+    justify-content: center;
+    /* margin-bottom: 50px; */
+}
+
+h4 {
+    color: #ce2d2d !important;
+    font-size: 1.85rem;
+    word-spacing: 0.3px;
+    /* font-family: "Calibre", system-ui, -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif; */
+}
+
+h4 a {
+    background-color: transparent;
+    color: #ce2d2d;
+}
+
+.p-tag {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.main-div-div {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 90%;
+    line-height: 30px;
+    /* gap: 10px 20px; */
+}
+
+.same {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    flex-flow: row nowrap;
+    width: 55%;
+}
+
+
+/* .same1 {
+        display: flex;
+        justify-content: space-between !important;
+        align-items: center;
+        flex-flow: row nowrap;
+        width: 45%;
+    } */
+
+.Name {
+    font-size: 23px;
+    color: #ce2d2d;
+    font-weight: 470;
+}
+
+.Name1 {
+    font-size: 23px;
+    color: #ce2d2d;
+    font-weight: 470;
+}
+
+span {
+    /* margin-top: -6px;  */
+    font-weight: 400;
+}
+
+.span1 {
+    color: #ce2d2d;
+    font-size: 11px;
+    word-spacing: 5px;
+}
+
+.sect .main-div h4 {
+    margin-bottom: -10px;
+}
+
+#last-section {
+    /* text-align: center; */
+    /* display: flex; */
+    margin: auto;
+    width: 17%;
+}
+
+.num-div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    font-weight: 500;
+    /* width: 0%; */
+}
+
+.num-div li a {
+    color: #ce2d2d;
+    /* margin: 5px; */
+}
+
+.one:active {
+    color: #5a5a66;
+}
+
+.num-div li a:hover {
+    text-decoration: underline;
+    color: #ce2d2d;
+    /* border: solid #ce2d2d; */
+    /* border-radius: 50%;
+    border-width: 15px; */
+    /* background-color: #ce2d2d; */
+}
+
+.one a:hover {
+    color: #5a5a66 !important;
+}
+
+.one a {
+    color: #29292c !important;
+}
+
+#sign-up-email {
+    text-align: center;
+    padding: 24px 0 34px 0;
+    /* width: 100%; */
+    width: 47%;
+    margin: auto;
+    /* margin-top: 5%; */
+    border: solid #cfcfdf 1px;
+    /* position: absolute; */
+    /* font-size: 1.5rem; */
+}
+
+#sign-up-email p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 1%;
+    /* padding: auto; */
+    text-align: center;
+}
+
+
+/* #sign-up-email p {
+    display: flex;
+    flex-flow: row nowrap;
+} */
+
+#first-sign-up-email {
+    /* width: 47%;
+
+    margin: auto; */
+    margin-top: 5%;
+    /*border: solid #5a5a66 2px;
+    */
+    /* position: relative; */
+    /* height: fit-content;
+    width: fit-content; */
+}
+
+form {
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3.5%;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+#input {
+    display: block;
+    width: 65%;
+    padding: 0 0 2px 10px;
+    height: 35px;
+    font-size: 1.3rem;
+    border: thin #ffffff 1px;
+    background-color: #ffffff;
+}
+
+button {
+    width: 20%;
+    height: 41px;
+    border: solid #ce2d2d 2px;
+    background-color: #ce2d2d;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+button b {
+    padding: 20px;
+    font-size: 1.1rem;
+    color: #f7e8e8;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 0 0 0 0;
+    margin-top: 5%;
+    background-repeat: repeat;
+    /* border: #29292c solid 1px; */
+    /* margin-left: 0%;
+    margin-bottom: 0%; */
+    width: 100%;
+}
+
+#section-div {
+    column-count: 3;
+    width: 80%;
+    margin-left: 0;
+}
+
+#footer-div p {
+    /* padding-left: 158.279px; */
+}
+
+.footer-lists ul li a {
+    color: #29292c;
+    margin: 0;
+}
+
+.footer-lists {
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 0;
+}
+
+#footer-div {
+    /* margin-top: 7%; */
+    /* margin-left: 10%; */
+    margin: auto;
+    width: 80%;
+    /* padding-left: 0; */
+    /* padding: 0 0 0 0; */
+}
+
+
+/* .main-div-div {
+    row-gap: 5px;
+} */
+
+
+/* #firstnav {
+    /* background-attachment: fixed;
+    background-color: #FFF;
+    border: 1px solid #f0f0f2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.ul1 {
+    /* height: 64.39px; 
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.ul1 li a {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;  */
+
+
+/* flex-direction: row; 
+}
+
+/* li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+} */
+
+
+/* .nav2 li {
+    display: flex;
+    float: right;
+    margin: 0 12px;
+    /* flex-direction: row; */
+
+
+/*.nav2 .how {
+    margin: 0 150x;
+} */
